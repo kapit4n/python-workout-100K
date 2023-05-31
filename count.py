@@ -57,5 +57,7 @@ for cfile in os.listdir("."):
             total = total + otherTotal
 
 
+to_reach = 3300
 print(total)
+print("\n# Reach to {0}: {1}".format(to_reach, str(3000 - total)))
 fReadme.write("\n# Total \n" + str(total))
